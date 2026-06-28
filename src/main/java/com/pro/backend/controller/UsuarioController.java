@@ -6,6 +6,7 @@ import com.pro.backend.model.Usuario;
 
 import java.util.List;
 
+@CrossOrigin(origins = "*", allowedHeaders = "*", methods = {RequestMethod.GET, RequestMethod.POST, RequestMethod.PUT, RequestMethod.DELETE})
 @RestController
 @RequestMapping("/api/usuario")
 
